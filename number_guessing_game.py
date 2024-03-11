@@ -23,3 +23,5 @@ def number_guessing(target):
     return False
 
 
+target = random.randint(1, 30)
+number_guessing(target)
